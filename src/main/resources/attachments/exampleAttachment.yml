@@ -1,0 +1,7 @@
+example:
+  modId: short_scope
+  namespace: cgm
+  material: DIAMOND
+  type : Scope
+  stats:
+    DAMAGE: 5

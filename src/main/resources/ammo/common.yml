@@ -1,0 +1,12 @@
+common:
+  modId: basic_bullet
+  namespace: cgm
+  material: DIAMOND
+  type: COMMON
+  life: 400
+  trailLengthMultiplier: 2.0
+  color: 0x9C71FF
+  gravity: 0
+  particleData: 0
+  stats:
+    DAMAGE: 5

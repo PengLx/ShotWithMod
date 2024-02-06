@@ -1,0 +1,25 @@
+pistol:
+  modId: pistol
+  namespace: cgm
+  material: DIAMOND
+  ammo-list:
+    - common
+  enable-attachment:
+    - SCOPE
+    - BARREL
+    - STOCK
+    - UNDER_BARREL
+  sound: cgm:assult_rifle.fire
+  stats:
+    DAMAGE: 5
+    SPEED: 20
+    MAX_AMMO: 16
+    Horizontal_Random_Migration: 5
+    Vertical_Random_Migration: 5
+    SOUND_DISTANCE: 64
+    COOLDOWN: 5
+    #枪械冷却时间 用毫秒计算
+  ShotOnAim:
+    stats:
+      Horizontal_Random_Migration: -5
+      Vertical_Random_Migration: -5
